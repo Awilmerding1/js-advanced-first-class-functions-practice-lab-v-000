@@ -32,7 +32,7 @@ function driversByName(drivers) {
 function totalRevenue(drivers) {
   const totalRevDrivers = [...drivers]
   const totalRev = function(agg, el, i, arr) {
-    
+    return el.revenue
   }
   
 }
