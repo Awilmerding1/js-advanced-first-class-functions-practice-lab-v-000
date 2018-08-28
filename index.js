@@ -41,6 +41,7 @@ function totalRevenue(drivers) {
 function averageRevenue(drivers) {
   const avgRevDrivers = [...drivers]
   let avg = 0
+  let total = 0
     avgRevDrivers.forEach(function (driver) {
   	avg += driver.revenue;
   	});
