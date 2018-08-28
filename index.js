@@ -31,6 +31,7 @@ function driversByName(drivers) {
 
 function totalRevenue(drivers) {
   const totalRevDrivers = [...drivers]
+  let total = 0
     totalRevDrivers.forEach(function (driver) {
   	total += driver.revenue;
   	});
