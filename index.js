@@ -44,6 +44,7 @@ function averageRevenue(drivers) {
   let total = 0
     avgRevDrivers.forEach(function (driver) {
   	total += driver.revenue;
+  	avg = total/drivers.length
   	});
   	return avg;
 }
