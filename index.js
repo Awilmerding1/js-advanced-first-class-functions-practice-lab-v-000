@@ -33,7 +33,7 @@ function totalRevenue(drivers) {
  const totalRevDrivers = [...drivers]
   totalRevDrivers.reduce(function (agg, el, i, arr) {
     return agg
-  })
+  }, 0)
   
 }
 
