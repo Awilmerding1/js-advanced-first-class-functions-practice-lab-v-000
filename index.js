@@ -38,5 +38,15 @@ function totalRevenue(drivers) {
   	return total;
 }
 
+function averageRevenue(drivers) {
+  const avgRevDrivers = [...drivers]
+  let avg = 0
+    avgRevDrivers.forEach(function (driver) {
+  	avg += driver.revenue;
+  	});
+  	return avg;
+}
+
+
 
 
