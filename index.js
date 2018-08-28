@@ -31,9 +31,11 @@ function driversByName(drivers) {
 
 function totalRevenue(drivers) {
   const totalRevDrivers = [...drivers]
-  const totalRev = function(agg, el, i, arr) {
-    let total = 0
-    
+    totalRevDrivers.forEach(function (driver) {
+  	total += driver.revenue;
+  	});
+  	return totalPrice;
+
   }
   
 }
