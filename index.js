@@ -43,7 +43,7 @@ function averageRevenue(drivers) {
   let avg = 0
   let total = 0
     avgRevDrivers.forEach(function (driver) {
-  	avg += driver.revenue;
+  	total += driver.revenue;
   	});
   	return avg;
 }
