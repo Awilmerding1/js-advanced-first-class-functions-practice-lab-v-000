@@ -35,10 +35,7 @@ function totalRevenue(drivers) {
     totalRevDrivers.forEach(function (driver) {
   	total += driver.revenue;
   	});
-  	return totalPrice;
-
-  }
-  
+  	return total;
 }
 
 
